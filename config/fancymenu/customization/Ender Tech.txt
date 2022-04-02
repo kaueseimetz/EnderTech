@@ -1,11 +1,16 @@
 type = menu
 
 customization-meta {
-  identifier = net.minecraft.client.gui.screen.WorldSelectionScreen
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
   randomgroup = 1
   renderorder = foreground
   randommode = false
   randomonlyfirsttime = false
+}
+
+customization {
+  path = background_init.jpg
+  action = texturizebackground
 }
 
 customization {
@@ -14,70 +19,100 @@ customization {
 }
 
 customization {
-  identifier = %id=346948%
-  orientation = top-left
-  x = 4
-  action = movebutton
-  y = 23
+  identifier = %id=604382%
+  action = hidebutton
 }
 
 customization {
-  identifier = %id=504948%
-  orientation = top-left
-  x = 4
+  identifier = %id=376322%
+  orientation = mid-right
+  x = -466
   action = movebutton
-  y = 46
+  y = -45
 }
 
 customization {
-  identifier = %id=582972%
-  orientation = top-left
-  x = 79
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = 2
   action = movebutton
-  y = 92
+  y = 3
 }
 
 customization {
-  identifier = %id=582972%
-  width = 75
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=502382%
+  width = 200
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=346972%
-  orientation = top-left
-  x = 4
-  action = movebutton
-  y = 69
+  identifier = %id=376382%
+  action = hidebutton
 }
 
 customization {
-  identifier = %id=424972%
-  orientation = top-left
-  x = 79
-  action = movebutton
-  y = 69
+  identifier = %id=502346%
+  action = hidebutton
 }
 
 customization {
-  identifier = %id=424972%
-  width = 75
-  action = resizebutton
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 217
+  width = 20
+  actionid = fe6f483d-d879-4556-bab1-f0b3ebffb1831648919602122
+  action = addbutton
+  y = 165
+  label = 
+  value = https://discord.gg/jQJUawgY7r
   height = 20
 }
 
 customization {
-  identifier = %id=424972%
-  action = setbuttonlabel
-  value = Deletar
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 217
+  width = 20
+  actionid = 5ae7154b-df3a-4e64-b390-468bbfe5f4d11648919647696
+  action = addbutton
+  y = 189
+  label = 
+  value = https://github.com/kaueseimetz/EnderTech
+  height = 20
 }
 
 customization {
-  identifier = %id=504972%
+  path = icons/discord.png
   orientation = top-left
-  x = 4
-  action = movebutton
-  y = 92
+  x = 219
+  width = 16
+  action = addtexture
+  actionid = 5f873914-7ed0-436e-8d9f-54cf947b7f991648919686715
+  y = 167
+  height = 16
+}
+
+customization {
+  path = icons/github.png
+  orientation = top-left
+  x = 219
+  width = 16
+  action = addtexture
+  actionid = 0ab376c0-67ae-4956-9627-3f2e21cc00f61648919720751
+  y = 191
+  height = 16
 }
 
