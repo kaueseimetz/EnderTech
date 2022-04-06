@@ -1,0 +1,19 @@
+{
+	id: "cb2a9bf2-9730-42ff-9575-79d48c089416"
+	type: "player"
+	player_name: "kaues"
+	ranks: {
+		cb2a9bf2-9730-42ff-9575-79d48c089416: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "kaues"
+		"ftbteams:color": "#59FF88"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

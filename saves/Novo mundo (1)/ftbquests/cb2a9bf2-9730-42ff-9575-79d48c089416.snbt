@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "cb2a9bf2973042ff957579d48c089416"
+	name: "kaues"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

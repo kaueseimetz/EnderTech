@@ -14,6 +14,11 @@ customization {
 }
 
 customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -25,26 +30,29 @@ customization {
 
 customization {
   identifier = %id=376322%
-  orientation = mid-right
-  x = -466
+  orientation = element
+  orientation_element = vanillabtn:400298
+  x = -24
   action = movebutton
-  y = -45
+  y = 0
 }
 
 customization {
   identifier = %id=400382%
-  orientation = mid-centered
-  x = 2
+  orientation = element
+  orientation_element = vanillabtn:400346
+  x = 102
   action = movebutton
-  y = 3
+  y = 0
 }
 
 customization {
   identifier = %id=502382%
-  orientation = mid-centered
-  x = -100
+  orientation = element
+  orientation_element = vanillabtn:400322
+  x = 0
   action = movebutton
-  y = 27
+  y = 48
 }
 
 customization {
@@ -65,54 +73,58 @@ customization {
 }
 
 customization {
-  orientation = top-left
-  loopbackgroundanimations = true
+  orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink
-  x = 217
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:400322
+  x = -24
   width = 20
   actionid = fe6f483d-d879-4556-bab1-f0b3ebffb1831648919602122
   action = addbutton
-  y = 165
-  label = 
+  y = 0
   value = https://discord.gg/jQJUawgY7r
   height = 20
 }
 
 customization {
-  orientation = top-left
-  loopbackgroundanimations = true
+  orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink
-  x = 217
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:400346
+  x = -24
   width = 20
   actionid = 5ae7154b-df3a-4e64-b390-468bbfe5f4d11648919647696
   action = addbutton
-  y = 189
-  label = 
+  y = 0
   value = https://github.com/kaueseimetz/EnderTech
   height = 20
 }
 
 customization {
   path = icons/discord.png
-  orientation = top-left
-  x = 219
+  orientation = element
+  orientation_element = vanillabtn:400322
+  x = -22
   width = 16
   action = addtexture
   actionid = 5f873914-7ed0-436e-8d9f-54cf947b7f991648919686715
-  y = 167
+  y = 2
   height = 16
 }
 
 customization {
   path = icons/github.png
-  orientation = top-left
-  x = 219
+  orientation = element
+  orientation_element = vanillabtn:400346
+  x = -22
   width = 16
   action = addtexture
   actionid = 0ab376c0-67ae-4956-9627-3f2e21cc00f61648919720751
-  y = 191
+  y = 2
   height = 16
 }
 
